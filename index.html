@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acalento Gestão — Gestão de atendimentos para Home Care</title>
+  <meta name="description" content="Acalento Gestão conecta empresas de Home Care a cuidadores: publique o atendimento, veja quem é compatível, acompanhe a execução e feche as horas com prova." />
+  <meta name="theme-color" content="#0050E0" />
+  <meta property="og:title" content="Acalento Gestão" />
+  <meta property="og:description" content="A pessoa certa no atendimento certo. Gestão operacional para empresas de Home Care." />
+  <meta property="og:image" content="assets/og-image.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ Cabeçalho ============ -->
+  <header class="topbar" id="topo">
+    <div class="container topbar__inner">
+      <a href="#topo" class="brand" aria-label="Acalento Gestão — início">
+        <img src="assets/logo.png" alt="" width="40" height="38" />
+        <span class="brand__name">Acalento <span>Gestão</span></span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#compatibilidade">Compatibilidade</a>
+        <a href="#perguntas">Perguntas</a>
+        <a href="#contato" class="btn btn--primary btn--sm nav__cta">Agendar demonstração</a>
+      </nav>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow"><span class="dot"></span> Gestão operacional para Home Care</p>
+          <h1>A pessoa certa no <em>atendimento certo</em>, com as horas fechadas com prova.</h1>
+          <p class="lead">
+            A Acalento Gestão conecta sua empresa de Home Care aos cuidadores do seu quadro:
+            publique o atendimento, veja quem é compatível, confirme a escala, acompanhe a execução
+            e feche o período a partir do que realmente aconteceu.
+          </p>
+          <div class="hero__actions">
+            <a href="#contato" class="btn btn--primary btn--lg">Agendar demonstração</a>
+            <a href="#como-funciona" class="btn btn--ghost btn--lg">Ver como funciona</a>
+          </div>
+          <ul class="hero__checks">
+            <li>Quadro próprio por empresa</li>
+            <li>Categoria profissional aplicada pelo sistema</li>
+            <li>Check-in e check-out registrados</li>
+          </ul>
+        </div>
+
+        <!-- Mockup da interface -->
+        <div class="hero__visual reveal" aria-label="Exemplo ilustrativo da tela de cuidadores compatíveis">
+          <div class="mock">
+            <div class="mock__bar"><span></span><span></span><span></span><p>Cuidadores compatíveis</p></div>
+            <div class="mock__body">
+              <div class="mock__job">
+                <div>
+                  <p class="mock__label">Atendimento</p>
+                  <p class="mock__title">Plantão 12h · Dona Marli</p>
+                  <p class="mock__meta">Centro · 07:00 – 19:00</p>
+                </div>
+                <span class="badge badge--info">Cuidador informal</span>
+              </div>
+              <div class="mock__tags">
+                <span>Higiene e banho</span><span>Alimentação</span><span>Apoio para locomoção</span>
+              </div>
+              <p class="mock__label mock__label--list">3 compatíveis no seu quadro</p>
+              <ul class="mock__list">
+                <li>
+                  <span class="avatar" style="--h:214">SO</span>
+                  <div><strong>Sandra Oliveira</strong><small>Informal · Centro</small></div>
+                  <span class="status status--ok">Convite aceito</span>
+                </li>
+                <li>
+                  <span class="avatar" style="--h:200">BL</span>
+                  <div><strong>Beatriz Lima</strong><small>Informal · Bela Vista</small></div>
+                  <span class="status status--wait">Convidada</span>
+                </li>
+                <li>
+                  <span class="avatar" style="--h:226">DS</span>
+                  <div><strong>Débora Santos</strong><small>Informal · Jardim América</small></div>
+                  <button class="mini-btn" type="button" tabindex="-1">Convidar</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="float-card float-card--a">
+            <span class="float-card__icon">✓</span>
+            <div><strong>Check-in registrado</strong><small>07:02 · Sandra Oliveira</small></div>
+          </div>
+          <div class="float-card float-card--b">
+            <span class="float-card__icon float-card__icon--clock">⏱</span>
+            <div><strong>12h 04min</strong><small>Horas do plantão, a partir do registro</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Dor ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">O desafio</p>
+          <h2>A operação de Home Care não pode depender de improviso</h2>
+          <p>Preencher plantões, respeitar o perfil exigido, acompanhar a execução e fechar horas são tarefas conectadas — mas costumam ficar espalhadas entre planilhas, ligações e mensagens.</p>
+        </div>
+        <div class="pains">
+          <article class="pain reveal">
+            <div class="pain__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8v4l2.5 2.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg>
+            </div>
+            <h3>Plantão a preencher sob pressão</h3>
+            <p>Encontrar quem pode cobrir um atendimento vira uma corrida de ligações, sem visão clara de quem está disponível e habilitado.</p>
+          </article>
+          <article class="pain reveal">
+            <div class="pain__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+            </div>
+            <h3>Risco de perfil errado</h3>
+            <p>Uma atividade que exige técnico ou profissional de nível superior pode acabar com quem não tem a formação necessária.</p>
+          </article>
+          <article class="pain reveal">
+            <div class="pain__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12h6m-6 4h6M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-6-6Z"/></svg>
+            </div>
+            <h3>Horas fechadas na digitação</h3>
+            <p>No fim do período, as horas são reconstruídas à mão — e fica difícil provar o que de fato aconteceu em cada atendimento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Como funciona ============ -->
+    <section class="section section--soft" id="como-funciona">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Como funciona</p>
+          <h2>De uma necessidade de atendimento a uma escala confirmada</h2>
+          <p>Um fluxo só, do pedido ao fechamento. Empresa e cuidador acompanham o mesmo atendimento, cada um a partir do seu papel.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__n">1</span>
+            <h3>Publique o atendimento</h3>
+            <p>Plantão de 12h ou 24h, sessão avulsa ou escala fixa em dias da semana. Marque as atividades e o perfil necessário.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">2</span>
+            <h3>Veja quem é compatível</h3>
+            <p>A lista já chega filtrada pelo seu quadro e pela categoria profissional que as atividades exigem.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">3</span>
+            <h3>Convide e confirme</h3>
+            <p>Envie convites ou receba candidaturas. Ao confirmar, o endereço completo é liberado só para quem vai atender.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">4</span>
+            <h3>Acompanhe a execução</h3>
+            <p>Check-in, tarefas, observações, sinais vitais quando aplicável e check-out — tudo pelo celular do cuidador.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__n">5</span>
+            <h3>Feche as horas</h3>
+            <p>O relatório do período sai dos registros de check-in e check-out, pronto para exportar.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Recursos / Pilares ============ -->
+    <section class="section" id="recursos">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Recursos</p>
+          <h2>Controle da operação, do quadro ao relatório</h2>
+        </div>
+
+        <div class="features">
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm8-1 2 2 4-4"/></svg>
+            </div>
+            <h3>A empresa é dona do seu quadro</h3>
+            <p>Você confere documentos e decide quem entra: aprovar, recusar ou bloquear. A aprovação é por empresa — o mesmo cuidador pode estar aprovado em uma e em análise em outra.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3>A regra decide antes da pessoa</h3>
+            <p>Atividade que exige técnico ou superior nunca chega a um cuidador informal, e profissional com registro de conselho ainda não conferido não entra na busca.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8Z"/></svg>
+            </div>
+            <h3>Plantão preenchido em poucos passos</h3>
+            <p>Publicar, ver compatíveis, convidar e confirmar em sequência, substituindo o preenchimento manual por telefone e mensagem.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>
+            </div>
+            <h3>Horas com prova</h3>
+            <p>As horas do relatório vêm dos check-ins e check-outs registrados, não de digitação. Exportação do período em CSV.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+            </div>
+            <h3>Rastreabilidade das decisões</h3>
+            <p>Aprovações, recusas, bloqueios e cancelamentos ficam gravados com data, hora e responsável no registro de atividade.</p>
+          </article>
+
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2v4m8-4v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Z"/></svg>
+            </div>
+            <h3>Escala fixa e agenda</h3>
+            <p>Publique uma escala de segunda a sexta em um só passo. O convite cobre a escala inteira e a agenda do cuidador se preenche ao aceitar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Compatibilidade ============ -->
+    <section class="section section--soft" id="compatibilidade">
+      <div class="container compat">
+        <div class="compat__copy reveal">
+          <p class="kicker">Compatibilidade</p>
+          <h2>A atividade define o perfil necessário</h2>
+          <p>Ao marcar as atividades do atendimento, a plataforma identifica a categoria profissional exigida e mostra apenas quem pode assumir. A empresa não precisa lembrar da regra — ela não tem como ser violada.</p>
+          <ul class="legend">
+            <li><span class="pill pill--informal">Informal</span> Cuidado diário, sem formação técnica exigida</li>
+            <li><span class="pill pill--tecnico">Técnico</span> Técnico de enfermagem e afins</li>
+            <li><span class="pill pill--superior">Superior</span> Enfermeiro, fisioterapeuta, fonoaudiólogo, nutricionista…</li>
+          </ul>
+        </div>
+
+        <div class="compat__table reveal" role="table" aria-label="Atividades e categoria mínima exigida">
+          <div class="ct__row ct__row--head" role="row">
+            <span role="columnheader">Atividade</span>
+            <span role="columnheader">Categoria mínima</span>
+          </div>
+          <div class="ct__row" role="row"><span role="cell">Higiene e banho</span><span role="cell"><span class="pill pill--informal">Informal</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Alimentação</span><span role="cell"><span class="pill pill--informal">Informal</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Apoio para locomoção</span><span role="cell"><span class="pill pill--informal">Informal</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Lembrete de medicação já separada</span><span role="cell"><span class="pill pill--informal">Informal</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Verificação de sinais vitais</span><span role="cell"><span class="pill pill--tecnico">Técnico</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Administração de medicação prescrita</span><span role="cell"><span class="pill pill--tecnico">Técnico</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Curativos simples</span><span role="cell"><span class="pill pill--tecnico">Técnico</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Sessão de fisioterapia</span><span role="cell"><span class="pill pill--superior">Superior</span></span></div>
+          <div class="ct__row" role="row"><span role="cell">Avaliação e visita de enfermagem</span><span role="cell"><span class="pill pill--superior">Superior</span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Dois lados ============ -->
+    <section class="section" id="perfis">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Para quem</p>
+          <h2>Dois lados do mesmo atendimento</h2>
+          <p>A coordenação trabalha no computador e no celular; o cuidador, no celular entre um atendimento e outro. Nenhum dos dois é deixado de lado.</p>
+        </div>
+
+        <div class="sides">
+          <article class="side side--company reveal">
+            <span class="side__tag">Empresa de Home Care</span>
+            <h3>Para a coordenação</h3>
+            <ul class="checklist">
+              <li>Painel com atendimentos do dia, em aberto e pendências</li>
+              <li>Cadastro de pacientes com informações relevantes ao cuidado</li>
+              <li>Conferência de documentos e aprovação do próprio quadro</li>
+              <li>Lista de compatíveis, convites e candidaturas</li>
+              <li>Avaliação após cada atendimento</li>
+              <li>Relatório de horas e registro de atividade</li>
+            </ul>
+          </article>
+
+          <article class="side side--caregiver reveal">
+            <span class="side__tag">Cuidadores e profissionais</span>
+            <h3>Para o cuidador</h3>
+            <ul class="checklist">
+              <li>Convites com bairro, horário e informações do paciente</li>
+              <li>Agenda com os atendimentos confirmados</li>
+              <li>Endereço liberado após a confirmação da empresa</li>
+              <li>Check-in, tarefas, observações e check-out pelo celular</li>
+              <li>Conversa vinculada ao atendimento</li>
+              <li>Histórico e avaliações recebidas</li>
+            </ul>
+            <div class="phone" aria-hidden="true">
+              <div class="phone__notch"></div>
+              <div class="phone__screen">
+                <p class="phone__hi">Olá, Sandra</p>
+                <div class="phone__card">
+                  <span class="badge badge--info">Hoje · 07:00</span>
+                  <strong>Plantão 12h</strong>
+                  <small>Dona Marli · Centro</small>
+                  <span class="phone__btn">Fazer check-in</span>
+                </div>
+                <div class="phone__tasks">
+                  <span class="done">Higiene e banho</span>
+                  <span class="done">Café da manhã</span>
+                  <span>Caminhada</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section--soft" id="perguntas">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <p class="kicker">Perguntas frequentes</p>
+          <h2>O que costumam nos perguntar</h2>
+        </div>
+
+        <div class="faq">
+          <details class="reveal">
+            <summary>Quem decide quais cuidadores podem atender pela minha empresa?</summary>
+            <p>A sua empresa. Cada empresa confere os documentos e aprova, recusa ou bloqueia cuidadores para o próprio quadro. Não existe aprovação global feita pela plataforma.</p>
+          </details>
+          <details class="reveal">
+            <summary>Como a plataforma evita que um atendimento técnico vá para um cuidador informal?</summary>
+            <p>Cada atividade tem uma categoria mínima. Ao montar o atendimento, a plataforma aplica essa regra e só mostra cuidadores compatíveis. Profissionais com registro de conselho ainda não conferido também ficam de fora da busca.</p>
+          </details>
+          <details class="reveal">
+            <summary>De onde vêm as horas do relatório?</summary>
+            <p>Dos check-ins e check-outs registrados em cada atendimento. O relatório do período é calculado a partir desses registros e pode ser exportado em CSV.</p>
+          </details>
+          <details class="reveal">
+            <summary>O cuidador precisa instalar algum aplicativo?</summary>
+            <p>A plataforma é web e foi pensada para o celular primeiro: o cuidador acessa pelo navegador e encontra convites, agenda e registro do atendimento na mesma tela.</p>
+          </details>
+          <details class="reveal">
+            <summary>Posso ver a plataforma funcionando com a rotina da minha empresa?</summary>
+            <p>Sim. Na demonstração simulamos um atendimento parecido com os que a sua coordenação publica, do pedido ao fechamento de horas, com dados fictícios.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA / Contato ============ -->
+    <section class="section cta" id="contato">
+      <div class="container cta__grid">
+        <div class="cta__copy reveal">
+          <h2>Vamos simular um atendimento da sua operação?</h2>
+          <p>Em uma conversa curta, mostramos o fluxo completo — publicar, encontrar o cuidador compatível, acompanhar e fechar as horas — usando um caso parecido com a rotina da sua empresa.</p>
+          <ul class="cta__points">
+            <li>Demonstração guiada de cerca de 10 minutos</li>
+            <li>Sem compromisso</li>
+            <li>Dados fictícios, nenhuma informação sua é necessária</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="form-contato" novalidate>
+          <h3>Agendar demonstração</h3>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="empresa">Empresa</label>
+            <input id="empresa" name="empresa" type="text" autocomplete="organization" required />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone / WhatsApp</label>
+              <input id="telefone" name="telefone" type="tel" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="mensagem">Como é a sua operação hoje? <span class="optional">(opcional)</span></label>
+            <textarea id="mensagem" name="mensagem" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Solicitar demonstração</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Rodapé ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#topo" class="brand brand--footer" aria-label="Acalento Gestão — voltar ao topo">
+        <img src="assets/logo.png" alt="" width="32" height="30" />
+        <span class="brand__name">Acalento <span>Gestão</span></span>
+      </a>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#perguntas">Perguntas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <p class="footer__copy">© <span id="ano"></span> Acalento Gestão. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
