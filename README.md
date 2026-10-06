@@ -22,7 +22,7 @@ assets/      # logo, favicon, ícone de app e imagem de compartilhamento
 
 ## Configuração
 
-- **E-mail do formulário:** defina `CONTATO_EMAIL` no topo de `script.js`. O formulário abre o
+- **E-mail do formulário:** `CONTATO_EMAIL` no topo de `script.js` (atual: acalentohomecare@gmail.com). O formulário abre o
   programa de e-mail do visitante com a mensagem preenchida.
 
 ## Publicação

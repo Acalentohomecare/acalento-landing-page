@@ -4,7 +4,7 @@
  * CONFIGURAÇÃO: defina abaixo o e-mail que deve receber os pedidos de demonstração.
  * O formulário abre o programa de e-mail do visitante com a mensagem já preenchida.
  */
-const CONTATO_EMAIL = ""; // ex.: "contato@suaempresa.com.br"
+const CONTATO_EMAIL = "acalentohomecare@gmail.com";
 
 document.documentElement.classList.remove("no-js");
 
